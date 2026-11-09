@@ -1,4 +1,4 @@
-# Astra Manufacturing ERP
+# Astrea Manufacturing ERP
 
 End-to-end Manufacturing and Production Management ERP
 implemented using Odoo 19 Community.

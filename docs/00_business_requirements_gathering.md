@@ -1,6 +1,6 @@
 # 00 — Business Requirements Gathering Plan
 
-**Project:** Astra Manufacturing — Manufacturing & Production Management ERP
+**Project:** Astrea Manufacturing — Manufacturing & Production Management ERP
 **ERP Platform:** Odoo 19
 **Document Type:** Business Analysis / Requirements Elicitation Plan
 **Version:** 1.0
@@ -11,7 +11,7 @@
 
 # 1. Document Purpose
 
-This document defines the approach, methodology, stakeholders, activities, and deliverables required to gather and validate business requirements for the Astra Manufacturing ERP implementation project.
+This document defines the approach, methodology, stakeholders, activities, and deliverables required to gather and validate business requirements for the Astrea Manufacturing ERP implementation project.
 
 The purpose of the requirements gathering process is to understand the company's existing manufacturing operations, identify operational challenges, define business needs, and establish the requirements that will guide the ERP implementation.
 
@@ -19,7 +19,7 @@ This document serves as the foundation for the Business Requirements Document (B
 
 ## 1.1 Project Background
 
-Astra Manufacturing is a hypothetical industrial manufacturing company specializing in industrial water pumps and electric motors.
+Astrea Manufacturing is a hypothetical industrial manufacturing company specializing in industrial water pumps and electric motors.
 
 The company currently manages several operational activities, including:
 
@@ -602,7 +602,7 @@ For this portfolio project, approval records must be presented as simulated or p
 
 ## 12.1 Assumptions
 
-- Astra Manufacturing is a hypothetical manufacturing company.
+- Astrea Manufacturing is a hypothetical manufacturing company.
 - The project uses Odoo 19.
 - The initial implementation focuses on one manufacturing facility.
 - WP100 and EM200 are the initial manufactured products.
@@ -662,7 +662,7 @@ Business requirements gathering is the foundation of a successful ERP implementa
 
 The objective is not simply to collect a list of requested features, but to understand the business processes, identify underlying problems, establish operational rules, and define measurable outcomes.
 
-For Astra Manufacturing, the requirements gathering process will establish the business foundation for the Odoo 19 Manufacturing ERP implementation.
+For Astrea Manufacturing, the requirements gathering process will establish the business foundation for the Odoo 19 Manufacturing ERP implementation.
 
 All requirements, process assumptions, and cost estimates must be validated before they are treated as actual production policies.
 

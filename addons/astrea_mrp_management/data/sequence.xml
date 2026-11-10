@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="seq_astrea_production_review"
+            model="ir.sequence">
+        <field name="name">Production Review</field>
+        <field name="code">astrea.production.review</field>
+        <field name="prefix">PRV/%(year)s/</field>
+        <field name="padding">5</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>

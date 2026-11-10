@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <menuitem
+        id="menu_astrea_mrp_root"
+        name="Astrea Manufacturing"
+        sequence="80"
+        groups="base.group_user"
+    />
+
+    <menuitem
+        id="menu_astrea_production_review"
+        name="Production Reviews"
+        parent="menu_astrea_mrp_root"
+        action="action_astrea_production_review"
+        sequence="10"
+        groups="base.group_user"
+    />
+
+</odoo>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="view_astrea_production_review_list"
+            model="ir.ui.view">
+        <field name="name">astrea.production.review.list</field>
+        <field name="model">astrea.production.review</field>
+        <field name="arch" type="xml">
+            <list string="Production Reviews">
+                <field name="name"/>
+                <field name="production_id"/>
+                <field name="product_id"/>
+                <field name="reviewer_id"/>
+                <field name="review_date"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_astrea_production_review_form"
+            model="ir.ui.view">
+        <field name="name">astrea.production.review.form</field>
+        <field name="model">astrea.production.review</field>
+        <field name="arch" type="xml">
+            <form string="Production Review">
+
+                <header>
+                    <button name="action_approve"
+                            type="object"
+                            string="Approve"
+                            class="btn-primary"
+                            invisible="state != 'draft'"/>
+
+                    <button name="action_reject"
+                            type="object"
+                            string="Reject"
+                            invisible="state != 'draft'"/>
+
+                    <button name="action_reset_to_draft"
+                            type="object"
+                            string="Reset to Draft"
+                            invisible="state == 'draft'"/>
+
+                    <field name="state" widget="statusbar"/>
+                </header>
+
+                <sheet>
+
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="production_id"/>
+                            <field name="product_id"/>
+                            <field name="product_qty"/>
+                        </group>
+
+                        <group>
+                            <field name="reviewer_id"/>
+                            <field name="review_date"/>
+                            <field name="company_id"/>
+                        </group>
+                    </group>
+
+                    <group>
+                        <field name="notes"/>
+                    </group>
+
+                </sheet>
+
+                <chatter/>
+
+            </form>
+        </field>
+    </record>
+
+    <record id="action_astrea_production_review"
+            model="ir.actions.act_window">
+        <field name="name">Production Reviews</field>
+        <field name="res_model">astrea.production.review</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>
